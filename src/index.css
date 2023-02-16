@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Noto+Sans:ital@1&family=Noto+Serif&display=swap');
+
+.header-img{
+    width:100%;
+    height:70px;
+    background: url(https://www.solidbackgrounds.com/images/2560x1440/2560x1440-camouflage-green-solid-color-background.jpg);
+    background-size: cover;
+} 
+
+main{
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 25%;
+    height: 590px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    word-spacing: 2px;
+    border-radius: 25px;
+    margin-top: 50px;
+    ;
+}
+
+header{
+    background-color: #8a9086;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 150px;
+}
+
+#me{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight:bold ;
+    color: var(--title)
+}
+
+section{
+    font-family:Arial, Helvetica, sans-serif ;
+    color: var(--sick);
+}
+
+h1{ 
+    font-size: 48px;
+    color: var(--title);
+    text-align: center;
+
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 250px;
+    list-style: none;
+}
+nav a {
+    color: var(--sick);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#contact{
+   position: relative;;
+}
+
+#woo{
+    color: var(--title);
+    font-size: 26px;
+    text-align: center;
+}
+
+.contact{
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 280px;
+    
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 25px;
+}
+
+#info{
+    color: var(--title);
+    font-size: 26px;
+    text-align: center;
+}
+
+footer{
+    padding: 30px;
+    margin-top: 50px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(119, 114, 114)
+}
+
+#bottom{
+    margin-top: 150px;
+}
+
+#made-by{
+    font-size: 12px;
+}
+
+ .links{
+    text-align: center;
+    color: #1a2a0a;
+ }
+
+ .nav-item{
+    font-size:20px;
+    margin-left: 45px;
+ }
+
+ .nav-link:hover{
+    color: white;
+    font-size: 22px;
+ }
+
+ #navbar{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Serif', serif;
+ }
+
+ #header{
+    margin-left: 28px;
+ }
+#header:hover{
+    color: black;
+    font-size: 41px;
+}
+
+.col{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Serif', serif;
+}
+
+.title{
+    font-size: 26;
+}
+
+#firstbox{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Serif', serif;
+    line-height: 48px;
+}
+
+#aboutme{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Serif', serif;
+    line-height: 48px;
+}
+
+#centertitle{
+    text-align: center;
+}
+
+.my-resume{
+    text-decoration: none;
+    color: black;
+}
+.my-resume:hover{
+    color: rgb(154, 147, 147);
+    font-size: 38px;
+}
+
+.proficient{
+margin-left: 130px;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 22px;
+}
+
+.style-resume{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 60px;
+}
+
+.contact-style{
+    margin-left: 60px;
+    font-size: 38px;
+}
+
+.contactTitle {
+    font-size: 24px;
+}
+
+.userInput {
+    padding: 5px 300px 5px 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+.messageInput {
+    padding: 5px 400px 130px 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+.submitButton {
+    color: white;
+    background-color: grey;
+    padding: 8px 35px 8px 35px;
+    border-radius: 5px;
+}
+
+.submitButton:hover {
+    background-color: rgb(149, 95, 95);
+    padding: 9px 36px 9px 36px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.myWork {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.allCards {
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+    color: black;
+}
+
+
+.myWork a {
+    color: transparent;
+    text-decoration: none;
+}
+
+.myWork a:hover {
+    color: white;
+}
+
+.allCards{
+    color: transparent;
+  
+}
+
+.allCards:hover {
+    color: black;
+}
+
+.myWork a:visited {
+    color: white;
+}
+
+.card1 {
+    height: 300px;
+    width: 300px;
+    border: 3px solid rgb(253, 253, 253);
+    margin-bottom: 30px;
+    background-image: url("card-images/horiseon.png");
+    background-size: cover;
+}
+
+.card1:hover {
+    height: 300px;
+    width: 300px;
+    border: 3px solid rgb(251, 250, 250);
+    margin-bottom: 30px;
+    background-image: url("card-images/grey-back.jpg");
+    background-size: cover;
+}
+
+.card2 {
+    height: 300px;
+    width: 300px;
+    border: 3px solid rgb(0, 0, 0);
+    margin-bottom: 30px;
+    background-image: url("card-images/weather-cats.png");
+    background-size: cover;
+}
+
+.card2:hover {
+    height: 300px;
+    width: 300px;
+    border: 3px solid white;
+    margin-bottom: 30px;
+    background-image: url("card-images/grey-back.jpg");
+    background-size: cover;
+}
+
+.card3 {
+    height: 300px;
+    width: 300px;
+    border: 3px solid white;
+    margin-bottom: 30px;
+    background-image: url("card-images/infinite-disk.png");
+    background-size: cover;
+}
+
+.card3:hover {
+    height: 300px;
+    width: 300px;
+    border: 3px solid white;
+    margin-bottom: 30px;
+    background-image: url("card-images/grey-back.jpg");
+    background-size: cover;
+}
+
+.github {
+    background-image: url("card-images/github-fav.png");
+}
+
+.logos img {
+    width: 45px;
+    height: 45px;
+    align-items: center;
+  }
+  
+  .resume-ss{
+    float: right;
+    margin-right: 10px;
+    height: 600px;
+    width: 500px;
+    margin-right: 100px;
+  }
+
+.grad-pic{
+    float: right;
+    margin-right: 5px;
+    height: 280px;
+    width: 280px;
+    margin-right: 100px;
+    border-radius: 50%;
+}
