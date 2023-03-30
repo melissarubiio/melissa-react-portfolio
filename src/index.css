@@ -29,10 +29,11 @@ header{
 }
 
 #me{
-    font-size: 30px;
+    font-size: 28px;
+    margin-top: 40px;
     font-family: cursive;
     font-weight:bold ;
-    color: var(--title)
+    margin-left: 100px;
 }
 
 section{
@@ -52,6 +53,8 @@ nav ul {
     min-width: 250px;
     list-style: none;
 }
+
+
 nav a {
     color: var(--sick);
     font-weight: bold;
@@ -70,10 +73,8 @@ nav a {
 }
 
 .contact{
-    margin-bottom: 20px;
-    padding: 40px;
-    height: 280px;
-    
+    padding: 10px;
+    height: 220px;
     font-size: 18px;
     line-height: 30px;
     border-radius: 25px;
@@ -139,26 +140,39 @@ footer{
     font-family: 'Noto Serif', serif;
 }
 
-.title{
-    font-size: 26;
+#title{
+    font-size: 36px;
+    margin-left: 62px;
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #firstbox{
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Noto Sans', sans-serif;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Courier New', Courier, monospace;
     line-height: 48px;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 20px;
+    
 }
 
 #aboutme{
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Noto Sans', sans-serif;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Courier New', Courier, monospace;
     line-height: 48px;
+    font-size: 17px;
+    background-color: rgba(84, 84, 84, 0.241);
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 15px;
+    margin-top: 80px;
+    padding: 22px;
 }
+
 
 #centertitle{
     text-align: center;
+    font-size: 36px;
+    margin: 20px;
 }
 
 .my-resume{
@@ -167,18 +181,18 @@ footer{
 }
 .my-resume:hover{
     color: rgb(154, 147, 147);
-    font-size: 38px;
+    font-size: 35px;
 }
 
 .proficient{
 margin-left: 130px;
-font-family:Arial, Helvetica, sans-serif;
+font-family: 'Courier New', Courier, monospace;
 font-size: 22px;
 }
 
 .style-resume{
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 35px;
 }
 .contact-form{
@@ -186,11 +200,13 @@ font-size: 22px;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 60px;
+    
 }
 
 .contact-style{
     margin-left: 60px;
     font-size: 38px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .contactTitle {
@@ -249,7 +265,8 @@ font-size: 22px;
 }
 
 .allCards:hover {
-    color: black;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .myWork a:visited {
@@ -257,12 +274,14 @@ font-size: 22px;
 }
 
 .card1 {
-    height: 300px;
-    width: 300px;
-    border: 3px solid rgb(253, 253, 253);
+    height: 380px;
+    width: 380px;
+    border: 3px solid grey;
     margin-bottom: 30px;
-    background-image: url("card-images/horiseon.png");
+    background-image: url("card-images/portfolio.png");
     background-size: cover;
+    margin-left: 100px;
+    margin-top: 50px;
 }
 
 .card1:hover {
@@ -270,35 +289,36 @@ font-size: 22px;
     width: 300px;
     border: 3px solid rgb(251, 250, 250);
     margin-bottom: 30px;
-    background-image: url("card-images/grey-back.jpg");
+    background-image: url("card-images/light-grey.jpeg");
     background-size: cover;
 }
 
 .card2 {
-    height: 300px;
-    width: 300px;
-    border: 3px solid rgb(0, 0, 0);
+    height: 380px;
+    width: 380px;
+    border: 3px solid grey;
     margin-bottom: 30px;
-    background-image: url("card-images/weather-cats.png");
+    background-image: url("card-images/passwordgen.png");
     background-size: cover;
+    margin-top: 50px;
 }
 
 .card2:hover {
-    height: 300px;
-    width: 300px;
     border: 3px solid white;
     margin-bottom: 30px;
-    background-image: url("card-images/grey-back.jpg");
+    background-image: url("card-images/light-grey.jpeg");
     background-size: cover;
 }
 
 .card3 {
-    height: 300px;
-    width: 300px;
-    border: 3px solid white;
+    height: 380px;
+    width: 380px;
+    border: 3px solid grey;
     margin-bottom: 30px;
-    background-image: url("card-images/infinite-disk.png");
+    background-image: url("card-images/scheduler.png");
     background-size: cover;
+    margin-right: 100px;
+    margin-top: 50px;
 }
 
 .card3:hover {
@@ -306,8 +326,9 @@ font-size: 22px;
     width: 300px;
     border: 3px solid white;
     margin-bottom: 30px;
-    background-image: url("card-images/grey-back.jpg");
+    background-image: url("card-images/light-grey.jpeg");
     background-size: cover;
+    
 }
 
 .github {
@@ -326,13 +347,244 @@ font-size: 22px;
     height: 600px;
     width: 500px;
     margin-right: 100px;
+    border: 2px solid black;
+    
   }
 
+.resume-ss:hover{
+    height: 620px;
+    width: 520px;
+}
 .grad-pic{
     float: right;
     margin-right: 5px;
-    height: 280px;
-    width: 280px;
+    height: 322px;
+    width: 326px;
     margin-right: 100px;
     border-radius: 50%;
 }
+
+#github-logo{
+    height: 44px;
+    width: 44px;
+}
+#github-logo:hover {
+    height: 50px;
+    width: 50px;
+}
+
+#expand-card:hover{
+    height: 390px;
+    width: 390px;
+}
+
+.card4{
+    height: 380px;
+    width: 380px;
+    border: 3px solid grey;
+    margin-bottom: 30px;
+    background-image: url("card-images/weather.png");
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.card4:hover {
+    height: 300px;
+    width: 300px;
+    border: 3px solid rgb(251, 250, 250);
+    margin-bottom: 30px;
+    background-image: url("card-images/light-grey.jpeg");
+    background-size: cover;
+}
+.card5 {
+    height: 380px;
+    width: 380px;
+    border: 3px solid grey;
+    margin-bottom: 30px;
+    background-image: url("card-images/weather-cats.png");
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.card5:hover {
+    border: 3px solid white;
+    margin-bottom: 30px;
+    background-image: url("card-images/light-grey.jpeg");
+    background-size: cover;
+}
+
+.card6 {
+    height: 380px;
+    width: 380px;
+    border: 3px solid grey;
+    margin-bottom: 30px;
+    background-image: url("card-images/teamgen.png");
+    background-size: cover;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.card6:hover {
+    height: 300px;
+    width: 300px;
+    border: 3px solid white;
+    margin-bottom: 30px;
+    background-image: url("card-images/light-grey.jpeg");
+    background-size: cover;
+    
+}
+
+.card7{
+    height: 380px;
+    width: 380px;
+    border: 3px solid grey;
+    margin-bottom: 30px;
+    background-image: url("card-images/notetaker.png");
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.card7:hover {
+    height: 300px;
+    width: 300px;
+    border: 3px solid rgb(251, 250, 250);
+    margin-bottom: 30px;
+    background-image: url("card-images/light-grey.jpeg");
+    background-size: cover;
+}
+
+.card8 {
+    height: 380px;
+    width: 380px;
+    border: 3px solid grey;
+    margin-bottom: 30px;
+    background-image: url("card-images/infinite-disk.png");
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.card8:hover {
+    border: 3px solid white;
+    margin-bottom: 30px;
+    background-image: url("card-images/light-grey.jpeg");
+    background-size: cover;
+}
+
+.card9 {
+    height: 380px;
+    width: 380px;
+    border: 3px solid grey;
+    margin-bottom: 30px;
+    background-image: url("card-images/dinediary.png");
+    background-size: cover;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.card9:hover {
+    height: 300px;
+    width: 300px;
+    border: 3px solid white;
+    margin-bottom: 30px;
+    background-image: url("card-images/light-grey.jpeg");
+    background-size: cover;
+    
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .contact h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-style {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  textarea {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  
+  #submitbtn {
+    margin-top: 2rem;
+  }
+  button{
+    background-color: #005d80;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #005d80;
+  }
+  
+  #styleContact{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+  }
+
+  form{
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #github{
+    float: left;
+    font-size: 20px;
+    margin-left: 80px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #linkedin{
+    float: right;
+    font-size: 20px;
+    margin-right: 80px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  #style-logo{
+    height: 160px;
+    width: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #email-style{
+    font-size: 20px;
+  }
+
+  #submitC{
+    color: white;
+  }

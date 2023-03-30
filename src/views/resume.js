@@ -9,8 +9,8 @@ function Resume(){
             <Navbar/>
             </div>
         <div class="resume">
-            <p class="style-resume">Download my <a class="my-resume" href="https://docs.google.com/document/d/1Zw2UB6UFTOqUXLN1JJVoYj01L9EAh2-0tD-KHzR3T_g/edit?usp=sharing">Resume Here</a></p>
-            <img src='./images/resume-ss.png' alt="resume-screenshot" className='resume-ss'></img>
+            <p class="style-resume">Download my <a class="my-resume" href="https://docs.google.com/document/d/1Zw2UB6UFTOqUXLN1JJVoYj01L9EAh2-0tD-KHzR3T_g/edit?usp=sharing" target="_blank" rel="noreferrer">Resume Here</a></p>
+            <a href="https://docs.google.com/document/d/1Zw2UB6UFTOqUXLN1JJVoYj01L9EAh2-0tD-KHzR3T_g/edit" target="_blank" rel="noreferrer"><img src="./images/resume-ss.png" alt="Clickable" className='resume-ss'></img></a>
             <div class="resume">
                 <h3 class="proficient">Front-End Proficiencies</h3>
                 <ul class="proficient">
