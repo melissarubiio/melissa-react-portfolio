@@ -20,7 +20,7 @@ This is my completed REACT portfolio. Instead of using html and css like we used
 
 ## Links
 - [Github](ttps://github.com/melissarubiio/melissa-react-portfolio)
-- [Heroku](https://melissa-react-portfolio.herokuapp.com/)
+
 
 ## Usernames
 - GitHub Username: [melissarubiio](https://github.com/melissarubiio)
